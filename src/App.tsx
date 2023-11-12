@@ -1,14 +1,15 @@
 import React from 'react';
 import './App.scss';
-import './components/button/Button'
 import Button from './components/button/Button';
+import Header from './components/header/Header';
 
 function App() {
   return (
     <div className="App">
+      <Header />
       <Button
-        label='ボタン'
-        className='primary'
+        label="ボタン"
+        className="danger"
       />
     </div>
   );
