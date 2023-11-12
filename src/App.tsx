@@ -2,6 +2,7 @@ import React from 'react';
 import './App.scss';
 import Button from './components/button/Button';
 import Header from './components/header/Header';
+import Input from './components/input/Input';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         label="ボタン"
         className="danger"
       />
+      <Input/>
     </div>
   );
 }
