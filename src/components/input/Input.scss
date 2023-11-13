@@ -57,5 +57,13 @@ input {
 }
 
 .input-error-message {
-    
+    // スタイル
+    margin-top: 5px;
+
+    // タイポグラフィー
+    color: $color-danger;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }

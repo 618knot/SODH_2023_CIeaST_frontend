@@ -12,7 +12,12 @@ function App() {
         label="ボタン"
         className="danger"
       />
-      <Input/>
+      <Input
+        id="password"
+        label="password"
+        comment="comment"
+        placeHolder="place holder"
+      />
     </div>
   );
 }
