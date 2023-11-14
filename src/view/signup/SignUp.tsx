@@ -18,6 +18,7 @@ const SignUp = () => {
             <Input
                 id="email"
                 label="メールアドレス"
+                placeHolder="cieast@example.com"
             />
             <Input
                 id="password"
