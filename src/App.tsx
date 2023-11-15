@@ -3,17 +3,21 @@ import './App.scss';
 import Button from './components/button/Button';
 import Header from './components/header/Header';
 import Input from './components/input/Input';
-import SignUp from './view/signup/SignUp';
-import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Routes>
-        <Route path='/signup' element={<SignUp/>}>
-        </Route>
-      </Routes>
+      <Button
+        label="ボタン"
+        className="danger"
+      />
+      <Input
+        id="password"
+        label="password"
+        comment="comment"
+        placeHolder="place holder"
+      />
     </div>
   );
 }

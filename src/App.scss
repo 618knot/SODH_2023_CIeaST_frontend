@@ -1,16 +1,7 @@
-@import "./Color.scss";
-
 body {
   background-color: #fbfbfbfb;
 }
 
 .App {
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-h1 {
-  color: $color-primary;
 }
