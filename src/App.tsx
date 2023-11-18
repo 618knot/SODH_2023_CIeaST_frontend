@@ -6,8 +6,10 @@ import Input from './components/input/Input';
 import SignUp from './view/signup/SignUp';
 import { Route, Routes } from "react-router-dom";
 import LogIn from './view/login/LogIn';
+import isLogin from './util/isLogin';
 
 function App() {
+  isLogin();
   return (
     <div className="App">
       <Header />
