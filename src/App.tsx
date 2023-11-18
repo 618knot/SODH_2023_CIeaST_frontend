@@ -8,6 +8,7 @@ import { Route, Routes } from "react-router-dom";
 import LogIn from './view/login/LogIn';
 import isLogin from './util/isLogin';
 import Rent from './view/rent/Rent';
+import Apply from './view/apply/Apply';
 
 function App() {
   isLogin();
@@ -18,7 +19,8 @@ function App() {
         <Route path='/signup' element={<SignUp/>} />
         <Route path='login' element={<LogIn/>}/>
 
-        <Route path='/' element={<Rent/>}/>
+        <Route path='/rent' element={<Rent/>}/>
+        <Route path='/apply' element={<Apply/>}/>
       </Routes>
     </div>
   );
