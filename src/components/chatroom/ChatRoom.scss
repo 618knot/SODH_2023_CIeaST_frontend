@@ -16,8 +16,8 @@
         background: #dfdfdf;
     }
 
-    // &.user-name {
-    //     display: flex;
-    //     text-align: left;
-    // }
+
+    text-decoration: none; /* 下線をなくす */
+    color: inherit; /* リンクの色を継承する */
+    cursor: default; /* カーソルをデフォルトに設定する */
 }

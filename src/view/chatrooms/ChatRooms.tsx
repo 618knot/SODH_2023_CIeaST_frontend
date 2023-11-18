@@ -7,10 +7,12 @@ const ChatRooms = () => {
             <ChatRoom
                 username="駐車場 太郎"
                 address="北海道札幌市中央区"
+                link="/taro"
             />
             <ChatRoom
                 username="駐車場 次郎"
                 address="北海道札幌市中央区"
+                link="/jiro"
             />
         </div>
     );
