@@ -65,7 +65,7 @@ const onClick = () => {
             console.log(response)
             errorNotification("登録に失敗しました");
         }
-    )
+    );
 }
 
 export default SignUp;
