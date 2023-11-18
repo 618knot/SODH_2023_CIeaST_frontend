@@ -1,0 +1,19 @@
+@import "../../Color.scss";
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.react-datepicker-wrapper {
+    display: flex;
+}
+
+.react-datepicker__input-container {
+    display: flex;
+}
+
+#start-date {
+    margin-top: 12px;
+}

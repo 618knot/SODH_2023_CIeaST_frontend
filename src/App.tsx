@@ -7,6 +7,7 @@ import SignUp from './view/signup/SignUp';
 import { Route, Routes } from "react-router-dom";
 import LogIn from './view/login/LogIn';
 import isLogin from './util/isLogin';
+import Rent from './view/rent/Rent';
 
 function App() {
   isLogin();
@@ -16,6 +17,8 @@ function App() {
       <Routes>
         <Route path='/signup' element={<SignUp/>} />
         <Route path='login' element={<LogIn/>}/>
+
+        <Route path='/' element={<Rent/>}/>
       </Routes>
     </div>
   );
