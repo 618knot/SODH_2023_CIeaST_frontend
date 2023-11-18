@@ -1,0 +1,50 @@
+@import "../../Color.scss";
+
+.chat-header {
+    & h3 {
+        color: $color-primary;
+        margin: 0;
+    }
+    // position: fixed;
+    
+    margin-bottom: 10px;
+}
+
+.chat-footer {
+    & input {
+        // レイアウト
+        width: 300px;
+        height: 30px;
+        margin: 5px;
+    
+        // スタイル
+        border-radius: 3px;
+        border: 1px solid #686868;
+        background: $color-background;
+    
+        // タイポグラフィー
+        font-size: 16px;
+    
+        &:focus {
+            border: 1px solid $color-primary;
+            outline: 1px solid $color-primary;
+        }
+    
+        &.error {
+            border: 1px solid $color-danger;
+            outline: 1px solid $color-danger;
+        }
+    
+        &:disabled {
+            border: 1px solid #B9B9B9;
+            background: #F5F5F5;
+        }
+    
+        &::placeholder {
+            color: #c4c4c4;
+        }
+    }
+
+    position: fixed;
+    bottom: 0;
+}
