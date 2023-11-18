@@ -9,6 +9,7 @@ import LogIn from './view/login/LogIn';
 import isLogin from './util/isLogin';
 import Rent from './view/rent/Rent';
 import Apply from './view/apply/Apply';
+import ChatRooms from './view/chatrooms/ChatRooms';
 
 function App() {
   isLogin();
@@ -21,6 +22,7 @@ function App() {
 
         <Route path='/rent' element={<Rent/>}/>
         <Route path='/apply' element={<Apply/>}/>
+        <Route path='/chatrooms' element={<ChatRooms/>}/>
       </Routes>
     </div>
   );
