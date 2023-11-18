@@ -1,0 +1,55 @@
+@import "../../Color.scss";
+
+.pickers-contaner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    & input {
+
+        // レイアウト
+        width: 140px;
+        height: 30px;
+        flex: 1;
+        margin-bottom: 0;
+    
+        // スタイル
+        border-radius: 3px;
+        border: 1px solid #686868;
+        background: $color-background;
+    
+        // タイポグラフィー
+        font-size: 16px;
+    
+        &:focus {
+            border: 1px solid $color-primary;
+            outline: 1px solid $color-primary;
+        }
+    
+        &.error {
+            border: 1px solid $color-danger;
+            outline: 1px solid $color-danger;
+        }
+    
+        &:disabled {
+            border: 1px solid #B9B9B9;
+            background: #F5F5F5;
+        }
+    
+        &::placeholder {
+            color: #c4c4c4;
+        }
+    }
+}
+
+.period-picker-contaner {
+    display: flex;
+    flex-direction: column;
+    
+    & label {
+        margin-left: 25px;
+        display: flex;
+        text-align: flex-start;
+    }
+}
