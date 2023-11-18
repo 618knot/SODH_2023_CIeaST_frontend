@@ -11,6 +11,7 @@ import Rent from './view/rent/Rent';
 import Apply from './view/apply/Apply';
 import ChatRooms from './view/chatrooms/ChatRooms';
 import Chat from './view/chat/Chat';
+import MapPage from './view/mappage/MapPage';
 
 function App() {
   isLogin();
@@ -25,6 +26,7 @@ function App() {
         <Route path='/apply' element={<Apply/>}/>
         <Route path='/chatrooms' element={<ChatRooms/>}/>
         <Route path='/chat' element={<Chat/>}/>
+        <Route path='/' element={<MapPage/>}/>
       </Routes>
     </div>
   );
